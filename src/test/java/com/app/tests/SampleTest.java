@@ -24,7 +24,7 @@ public class SampleTest extends BaseTest {
 		Assert.assertTrue(aolLandingPage.getNewsLinkLabel().contains("NEWS"),
 				"Page does not cotanin NEWS Link");
 		Assert.assertTrue(aolLandingPage.getSportsLinkLabel()
-				.contains("SPORTS"), "Page does not cotanin NEWS Link");
+				.contains("SPORTS"), "Page does not cotanin SPORTS Link");
 		Assert.assertTrue(
 				aolLandingPage.getEntertainmentLinkLabel().contains(
 						"ENTERTAINMENT"),
